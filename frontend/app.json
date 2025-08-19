@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "PureWaters",
+    "slug": "PureWaters",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Fotoğraf çekmek için kameraya erişim izni gerekiyor.",
+          "microphonePermission": "Video çekmek için mikrofona erişim izni gerekiyor."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Fotoğraflarınıza erişmek için izin gerekiyor."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Konumunuza erişmek için izin gerekiyor.",
+        "NSLocationAlwaysUsageDescription": "Konumunuzu almak için izninize ihtiyacımız var.",
+        "NSCameraUsageDescription": "Fotoğraf çekmek için kameraya erişim izni gerekiyor.",
+        "NSPhotoLibraryUsageDescription": "Fotoğraflarınıza erişmek için izin gerekiyor.",
+        "NSMicrophoneUsageDescription": "Video çekmek için mikrofona erişim izni gerekiyor."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"
+      ],
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "newArchEnabled": true
+  }
+}

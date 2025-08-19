@@ -1,0 +1,63 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F1F0E8",
+    padding: 20,
+  },
+  title: {
+    fontSize: 26,
+    fontWeight: "bold",
+    color: "#1e509a",
+    marginBottom: 15,
+    textAlign: "center",
+  },
+  description: {
+    fontSize: 16,
+    color: "#555",
+    textAlign: "center",
+    marginBottom: 25,
+  },
+  input: {
+    width: "100%",
+    height: 45,
+    borderWidth: 1,
+    borderColor: "#B3C8CF",
+    borderRadius: 10,
+    paddingHorizontal: 12,
+    backgroundColor: "#f9f9f9",
+    fontSize: 14,
+    marginBottom: 20,
+    color: "#333",
+  },
+  button: {
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#007BFF",
+    paddingHorizontal: 30,
+    paddingVertical: 12,
+    borderRadius: 15,
+    width: "100%",
+    marginTop: 10,
+    shadowColor: "#1e509a",
+    shadowOpacity: 0.2,
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  buttonText: {
+    color: "#f9f9f9",
+    fontSize: 14,
+    fontWeight: "600",
+    textTransform: "uppercase",
+  },
+  link: {
+    marginTop: 15,
+    fontSize: 14,
+    color: "#1e509a",
+    textDecorationLine: "underline",
+  },
+});

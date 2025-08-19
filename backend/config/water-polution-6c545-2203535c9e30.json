@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "****************-****************-****************",
+  "private_key_id": "****************",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n****************\n****************\n****************\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloudstorage@****************.****************.gserviceaccount.com",
+  "client_id": "104703087945272170686",
+  "auth_uri": "https://accounts.google.com/o/****************/****************",
+  "token_uri": "https://oauth2.googleapis.com/****************",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/****************/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/****************/****************/cloudstorage****************.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
